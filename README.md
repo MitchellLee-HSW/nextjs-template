@@ -8,3 +8,6 @@ This includes:
 - A basic Next.js project structure
 
 ![CI](https://github.com/MitchellLee-HSW/nextjs-template/workflows/CI/badge.svg)
+
+
+[Visit For Setup Instructions](https://github.com/gregrickaby/nextjs-github-pages/tree/main)
