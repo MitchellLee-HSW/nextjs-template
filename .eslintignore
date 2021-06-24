@@ -1,0 +1,9 @@
+.eslintrc.js
+
+node_modules
+.next
+.github
+
+docs
+documentation
+public

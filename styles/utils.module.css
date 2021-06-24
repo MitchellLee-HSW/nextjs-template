@@ -1,0 +1,134 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.listItem:last-child {
+  margin: 0;
+}
+
+
+.lightText {
+  color: rgb(190, 190, 190);
+}
+
+.sticky {
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.flexGrid {
+  display: flex;
+}
+
+.flexColumn {
+  flex: 1;
+}
+
+/* .input[type="submit"] {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 6px;
+  background-color: hsl(240, 5%, 20%);
+  color: whitesmoke;
+}
+
+.input[type="submit"]:hover {
+  color: whitesmoke;
+  background-color: hsl(240, 5%, 20%);
+} */
+
+button.input {
+  position: relative;
+}
+
+button.input::after {
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  /* Set bg and hide the element + animation */
+  background-color:black;
+  opacity: 0;
+}
+
+button.input:hover::after {
+    opacity: 0.1;
+}
+
+.input {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0.5em;
+  background-color: hsl(240, 5%, 20%);
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+.input:hover {
+  /* border: 1px solid rgba(255, 255, 255, 0.4); */
+  color: whitesmoke;
+  background-color: hsl(240, 5%, 20%);
+}
+
+.input[type="text"]:focus {
+  color: hsl(240, 5%, 20%);
+  background-color: whitesmoke;
+}
+
+.input[type="text"] {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 6px;
+  color: whitesmoke;
+  background-color: hsl(240, 5%, 20%);
+}
