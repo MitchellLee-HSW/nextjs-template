@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { GetStaticProps } from 'next';
 import Layout from '@components/layout';
 import utilStyles from '@styles/utils.module.css';
 
