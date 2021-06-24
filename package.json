@@ -5,6 +5,7 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
+    "export": "next export",
     "dev": "next dev",
     "test": "npm run lint",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
