@@ -18,7 +18,8 @@ const headers = async () => {
 
 // eslint-disable-next-line max-lines-per-function, no-undef
 module.exports = (phase, { defaultConfig }) => {
-    // const enviroment = process.env.NODE_ENV || "development";
+    // eslint-disable-next-line no-undef
+    const enviroment = process.env.NODE_ENV || "development";
 
     const baseConfig = {
         ...defaultConfig,
@@ -31,7 +32,8 @@ module.exports = (phase, { defaultConfig }) => {
     if (phase === PHASE_DEVELOPMENT_SERVER) {
         return {
         /* development only config options here */
-            ...baseConfig
+            ...baseConfig,
+            baseConfig: undefined,
         }
     }
 

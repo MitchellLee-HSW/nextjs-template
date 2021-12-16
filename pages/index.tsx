@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import Layout from '@components/layout';
 import utilStyles from '@styles/utils.module.css';
+import Loading from '@components/loading';
 
 const meta = {
   // title: "Test",
@@ -13,6 +14,7 @@ const Home: FC = () => {
       <section className={utilStyles.headingMd}>
         <p style={{marginBottom: "0"}}>Lorem ispsum...</p>
       </section>
+      <Loading diameter="240px" thickness="50px" />
     </Layout>
   )
 };
